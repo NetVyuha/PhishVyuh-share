@@ -11,7 +11,6 @@ PhishGuard India is a specialized threat scanner designed to protect Indian mobi
 Download either of the compiled Android package binaries below directly to your Android device:
 
 *   **[phishguard-debug.apk](./phishguard-debug.apk) (Recommended)**: Best for testing. Built with debug logs enabled and accepts any local or cloud endpoints.
-*   **[phishguard-release.apk](./phishguard-release.apk)**: The production release build template (unsigned).
 
 ---
 
