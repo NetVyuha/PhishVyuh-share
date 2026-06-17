@@ -42,10 +42,6 @@ To configure the server for your device:
         ```
         https://phishguard-backend-drrz.onrender.com
         ```
-    *   **Local Computer Wi-Fi**: If you are running the backend FastAPI server locally (`python3 main.py` in the `backend` directory) on the same Wi-Fi network as your phone, enter:
-        ```
-        http://<YOUR_COMPUTER_IP_ADDRESS>:8000
-        ```
 3.  Tap **Save API Configuration**. You are now ready to scan!
 
 ---
