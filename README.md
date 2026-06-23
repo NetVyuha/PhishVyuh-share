@@ -1,24 +1,24 @@
-# 🛡️ PhishGuard India — Android APK Testing Guide
+# 🛡️ PhishVYUHA — Android APK Testing Guide
 
-Welcome to the **PhishGuard India** testing repository! This public repository is set up for testers and friends to easily download, install, and test the PhishGuard India Android application.
+Welcome to the **PhishVYUHA** testing repository! This public repository is set up for testers and friends to easily download, install, and test the PhishVYUHA Android application.
 
-PhishGuard India is a specialized threat scanner designed to protect Indian mobile users from SMS spoofing, UPI billing fraud, typosquatted banking domains, and screenshot brand impersonation.
+PhishVYUHA is a specialized threat scanner designed to protect Indian mobile users from SMS spoofing, UPI billing fraud, typosquatted banking domains, and screenshot brand impersonation.
 
 ---
 
 ## 📱 Application Interface
 
-Here is a preview of the PhishGuard India application interface running on the Android Emulator during a statement scan verification:
+Here is a preview of the PhishVYUHA application interface running on the Android Emulator during a verification scan:
 
-![PhishGuard Emulator Preview](./emulator_screenshot.png)
+![PhishVYUHA Emulator Preview](./emulator_screenshot.png)
 
 ---
 
 ## 📥 1. Download the App
 
-Download either of the compiled Android package binaries below directly to your Android device:
+Download the compiled Android package binary below directly to your Android device:
 
-*   **[phishguard-debug.apk](./phishguard-debug.apk) (Recommended)**: Best for testing. Built with debug logs enabled and accepts any local or cloud endpoints.
+*   **[phishvyuha-debug.apk](./phishvyuha-debug.apk) (Recommended)**: Best for testing. Built with debug logs enabled and accepts any local or cloud endpoints.
 
 ---
 
@@ -27,22 +27,22 @@ Download either of the compiled Android package binaries below directly to your 
 1.  Open this page on your Android mobile browser and download the `.apk` file.
 2.  Open your file manager or browser downloads and tap the downloaded APK.
 3.  If prompted, enable **"Allow installation from unknown sources"** in your browser/file manager settings.
-4.  Tap **Install** and launch **PhishGuard India** from your app drawer.
+4.  Tap **Install** and launch **PhishVYUHA** from your app drawer.
 
 ---
 
 ## 🔌 3. Connect to the API Backend Server
 
-PhishGuard requires a backend server to query live APIs (like Google Safe Browsing, Gemini AI, and VirusTotal). By default, the app points to `http://10.0.2.2:8000` (the Android emulator local bridge).
+PhishVYUHA requires a backend server to query live APIs (like Google Safe Browsing, Gemini AI, and VirusTotal). By default, the app points to our Cloudflare workers gateway:
 
-To configure the server for your device:
-1.  Tap the **Settings (gear icon)** in the top-right corner of the PhishGuard App header.
-2.  Enter the URL of your active API backend:
-    *   **Live Cloud Service (Render)**: Set the server URL to your deployed Render service endpoint:
-        ```
-        https://phishguard-backend-drrz.onrender.com
-        ```
-3.  Tap **Save API Configuration**. You are now ready to scan!
+```
+https://phishvyuha-proxy.secure-vyuha.workers.dev
+```
+
+To configure a custom server for your device:
+1.  Tap the **Settings (gear icon)** in the top-right corner of the app header.
+2.  Enter the URL of your active API backend (e.g. `http://10.0.2.2:8000` for local development).
+3.  Tap **Save API Configuration**.
 
 ---
 
@@ -99,4 +99,5 @@ You can copy and paste the following test cases in the app's scanner tabs to che
 *   **TRAI DLT Decoder**: Automatically parses SMS prefixes to detail the carrier and circle region, and suffixes to identify message classification (Transactional, Service, Promotional, Government).
 *   **Offline Lookalike Guard**: Instant offline typosquatting checks against the official *India Financial Websites Reference List (2026)*.
 *   **Local Heuristics Early-Exit**: Bypasses AI requests for obvious scams to safeguard LLM resource quotas.
+*   **Offline Screenshot OCR Fallback**: Runs local Google ML Kit text recognition to process screenshot text when offline.
 *   **Language Localization**: Instantly translate threat alerts into English, Hindi (हिंदी), and Gujarati (ગુજરાતી).
