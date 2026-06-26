@@ -13,6 +13,68 @@
 The premium landing page showing the security suite ready to scan.
 ![App Fresh Launch](app_launched.png)
 
+### 1. English UI & SMS Testing
+* **Main Screen Launch**:
+  ![Main Screen](App%20result/1.%20Main_screen.jpeg)
+  *One-liner: The premium landing page in English showing the updated security suite ready to scan.*
+* **SMS Verification Input**:
+  ![SMS Test 1 Input](App%20result/2.%20SMS_Test-1.jpeg)
+  *One-liner: Input interface for checking a legitimate DLT transactional banking SMS.*
+* **Safe SMS Scan Result**:
+  ![SMS Test 1 Result](App%20result/3.%20SMS_Test-1-result.jpeg)
+  *One-liner: Verification result flagging the DLT-compliant bank transaction as low risk.*
+* **SMS Scam Input**:
+  ![SMS Test 2 Input](App%20result/5.%20SMS_Test-2.jpeg)
+  *One-liner: Input interface for checking an electricity disconnection SMS scam.*
+* **Scam SMS Critical Alert**:
+  ![SMS Test 2 Result](App%20result/6.%20SMS_Test-2-Result.jpeg)
+  *One-liner: Critical risk alert flagging high-urgency keywords and personal number bank impersonation.*
+
+### 2. Multi-lingual Support (Hindi & Gujarati)
+* **Gujarati UI Layout**:
+  ![Gujarati UI](App%20result/7.%20Gujarati_UI.jpeg)
+  *One-liner: The main application interface fully localized in Gujarati.*
+* **Gujarati SMS Verification Input**:
+  ![Gujarati SMS Input](App%20result/8.%20SMS_Test-3.jpeg)
+  *One-liner: Scanning a Gujarati language transactional bank phishing SMS.*
+* **Gujarati Phishing Result**:
+  ![Gujarati SMS Result](App%20result/9.%20Gujarati_SMS-Result.jpeg)
+  *One-liner: Risk assessment report detailing lookalike SBI links in Gujarati.*
+* **Hindi UI Layout**:
+  ![Hindi UI](App%20result/12.%20Hindi_UI.jpeg)
+  *One-liner: The main application interface fully localized in Hindi.*
+* **Hindi URL Scan Input**:
+  ![Hindi URL Input](App%20result/13.%20Hindi_Test-URL.jpeg)
+  *One-liner: Input interface for scanning a lookalike bank URL with Hindi localized context.*
+* **Hindi Phishing Warning Result**:
+  ![Hindi URL Result](App%20result/14.%20Hindi_URL-Result.jpeg)
+  *One-liner: Phishing alert screen explaining the brand impersonation details in Hindi.*
+
+### 3. URL Scanning Tests
+* **Safe Bank Domain Verification**:
+  ![URL Safe Bank](App%20result/10.%20URL_Test-bank.jpeg)
+  *One-liner: Verification of an official, registered HDFC banking domain.*
+* **Spoofed Bank Domain Verification**:
+  ![URL Phishing Warning](App%20result/11.%20URL_Test-Phishing.jpeg)
+  *One-liner: Critical risk warning for a typo-squatted lookalike bank domain (`hdfcbank.icu`).*
+
+### 4. Multimodal Screenshot Scanning (Gemini Vision)
+* **Screenshot Upload Select**:
+  ![Image Scan Select](App%20result/15.%20Test-Image%20scan.png)
+  *One-liner: Panel configuration for selecting and uploading an image for OCR and layout analysis.*
+* **Suspicious SMS Screenshot Upload**:
+  ![Image Scan SMS](App%20result/16.%20Image_Scan-SMS%20Scan.jpeg)
+  *One-liner: Uploading a screenshot of a suspicious message for backend Gemini OCR extraction.*
+* **SMS Screenshot Extraction Result**:
+  ![Image Scan SMS Result](App%20result/17.%20Image_Sacn-SMS%20result.jpeg)
+  *One-liner: Gemini-powered analysis verifying content and extracting lookalike URLs from the uploaded screenshot.*
+* **Login Portal Impersonation Upload**:
+  ![Image Scan Login Portal](App%20result/18.%20Imaeg%20Scan-Microsoft%20login_Page.png)
+  *One-liner: Uploading a screenshot of a suspicious login form to check visual design alignment.*
+* **Visual Mimicry Critical Warning**:
+  ![Image Scan Login Result](App%20result/19.%20Image_Scan-Login_Result.jpeg)
+  *One-liner: Critical warning highlighting visual impersonation indicators from the login page screenshot.*
+
 ---
 
 ## 🚀 Key Features
