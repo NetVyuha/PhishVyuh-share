@@ -7,6 +7,14 @@
 
 ---
 
+## 📸 Application Screenshots
+
+### Fresh Application Launch & Main Screen
+The premium landing page showing the security suite ready to scan.
+![App Fresh Launch](app_launched.png)
+
+---
+
 ## 🚀 Key Features
 
 * **TRAI DLT SMS Header Validator**: Instantly flags fake banks, bad suffixes, or spoofed alphanumeric headers by parsing sender IDs against standard TRAI DLT formats.
