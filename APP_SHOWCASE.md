@@ -25,7 +25,7 @@ Input interface for checking a banking SMS.
 Verification result flagging the SMS is coming from the private number and flagged Critical for Banking service.
 
 ![SMS Test 1 Result](App%20result/3.%20SMS_Test-1-result.jpeg)
-![SMS Test 1 Result](App%20result/4.%20SMS_Test-1-result.jpeg)
+![SMS Test 1 Result](App%20result/4.%20SMS_Test-1-Result.jpeg)
 
 ---
 
@@ -103,10 +103,10 @@ Critical risk warning for phishing url identified from PhishTank.
 
 ---
 
-## 4. Multimodal Screenshot Scanning (Gemini Vision)
+## 4. Multimodal Screenshot Scanning
 
 ### Screenshot Upload Select
-Panel configuration for selecting and uploading an image for OCR and layout analysis. (Image sample from Times of India: https://timesofindia.indiatimes.com/technology/tech-news/bengaluru-techie-shares-new-fraud-criminals-are-using-to-steal-your-money-check-bank-screenshots/articleshow/109804684.cms)
+Panel configuration for selecting and uploading an image for OCR and layout analysis. (Image sample from [Times of India](https://timesofindia.indiatimes.com/technology/tech-news/bengaluru-techie-shares-new-fraud-criminals-are-using-to-steal-your-money-check-bank-screenshots/articleshow/109804684.cms))
 
 ![Image Scan Select](App%20result/15.%20Test-Image%20scan.png)
 
